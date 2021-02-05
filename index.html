@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jolly Ollly</title>
+	<link rel="stylesheet" href="fonts/icons/style.css">
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<style>
+		::-webkit-scrollbar-button {
+		background-image:url('');
+		background-repeat:no-repeat;
+		width:3px;
+		height:0px
+		}
+
+		::-webkit-scrollbar-track {
+		background-color:rgba(225, 225, 225, 225);
+		}
+
+		::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 0px;
+			border-radius: 50px;
+			background-color: rgba(0,0,0,0.5);		
+		}
+
+		::-webkit-resizer{
+		background-image:url('');
+		background-repeat:no-repeat;
+		width:3px;
+		height:0px
+		}
+
+		::-webkit-scrollbar{
+			width: 8px;
+			height: 10px;
+		}
+	</style>
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__wrap">
+			<div class="header__item">
+				<div class="header__logo-il">
+					<span class="icon-jo"></span>
+				</div>
+			</div>
+			<div class="header__item">
+				<div class="header__logo-text">Jolly Ollly</div>
+			</div>
+			<div class="header__item">
+				<div class="header__button">
+					<span class="header__stick"></span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="portfolio" class="portfolio display">
+		<div class="container">
+			<div class="portfolio__wrap">
+				<div class="portfolio__item">
+					<h4 class="portfolio__title">Portfolio</h4>
+					<nav class="portfolio__side">
+						<ul>
+							<a href="#" onclick="showContent('pages/web.html'), formAjax()">
+								<li class="portfolio__dot-active">
+									<p class="portfolio__name">Сайты</p>
+									<span class="portfolio__dot"></span>
+								</li>
+							</a>
+							<a href="#" onclick="showContent('pages/logo.html'), formAjax()"> 
+								<li>
+									<p class="portfolio__name">Логотипы</p>
+									<span class="portfolio__dot"></span>
+								</li>
+							</a>
+							<a href="#" onclick="showContent('pages/over.html'), formAjax()">
+								<li>
+									<p class="portfolio__name">Другое</p>
+									<span class="portfolio__dot"></span>
+								</li>
+							</a>
+						</ul>
+					</nav>
+				</div>
+				<div class="portfolio__item ajax" id="ajax">
+					
+						
+
+					<div class="ajax-web">
+						<div class="portfolio__content">
+							<a href="https://majorttom.github.io/majorTtom.github.io-dnight/index.html" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev1.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Day-Night</div>
+										
+									</div>
+								</div>
+							</a>
+
+							<a href="https://majorttom.github.io/majorTtom.github.io-photo/index.html" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev2.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Lisa Ann</div>
+										
+									</div>
+								</div>
+							</a>
+
+							<a href="https://majorttom.github.io/majorTtom.githab.io-fabrika/" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev3.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Fabrika</div>
+										
+									</div>
+								</div>
+							</a>
+
+							<a href="https://majorttom.github.io/majorTtom.github.io-loft/" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev4.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Loft Cafe</div>
+										
+									</div>
+								</div>
+							</a>
+							<a href="https://majorttom.github.io/majorTtom.github.io-mairala/" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev5.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Mairala</div>
+										
+									</div>
+								</div>
+							</a>
+							<a href="https://majorttom.github.io/majorTtom.github.io-webdev/" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev6.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Web dev</div>
+										
+									</div>
+								</div>
+							</a>
+							<a href="https://majorttom.github.io/majorTtom.github.io-bicycle/" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev7.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Bycicle</div>
+										
+									</div>
+								</div>
+							</a>
+							<a href="https://majorttom.github.io/majorTtom.github.io-viktorina/" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev8.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Victorina</div>
+										
+									</div>
+								</div>
+							</a>
+							<a href="https://majorttom.github.io/majorTtom.github.io-elena/" target="_blank" class="portfolio__content-item">
+								<div class="portfolio__content-wrap">
+									<img class="portfolio__content-img" src="img/prev9.jpg" alt="">
+									<div class="portfolio__content-bcg">
+										<div class="portfolio__content-title">Elena</div>
+										
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrap">
+				<div class="footer__item">
+					<h4 class="footer__title">Контакты</h4>
+					<nav class="footer__nav">
+						<ul>
+							<a href="tel:+79389174314" target='_blank' class="footer__link">
+								<li>+7 938 917 43 14</li>
+							</a>
+							<a href="mailto:jollyollly@gmail.com" target='_blank' class="footer__link">
+								<li>jollyollly@gmail.com</li>
+							</a>
+							<a href="http://t.me/azzrett" target='_blank' class="footer__link">
+								<li>telegram</li>
+							</a>
+							<a href="https://api.whatsapp.com/send?phone=79389174314" target='_blank' class="footer__link">
+								<li>what's app</li>
+							</a>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__item">
+					<h4 class="footer__title">С-Сети</h4>
+					<nav class="footer__nav">
+						<ul>
+							<a href="https://vk.com/azrett" target='_blank' class="footer__link">
+								<li>вконтакте</li>
+							</a>
+							<a href="https://www.instagram.com/jollyollly/" target='_blank' class="footer__link">
+								<li>instagram</li>
+							</a>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__item">
+					<p class="footer__c">
+						©jollyollly.2021
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<section class="contacts">
+		<div class="contacts__wrap">
+			<div class="contacts__item">
+				<h2 class="contacts__title">Связь</h2>
+				<div class="contacts__img">
+					<img src="img/phone-bcg.png" class="contacts__img"></img>
+					<div class="contacts__mask-img"></div>
+				</div>
+			</div>
+			<div class="contacts__item">
+				<nav class="contacts__nav">
+					<ul>
+						<a href="tel:+79389174314" target='_blank'>
+							<li class="contacts__li" >
+								<span class="contacts__icon icon-ph"></span>
+								<h6 class="contacts__link">+79389174314</h6>
+							</li>
+						</a>
+						<a href="https://www.instagram.com/jollyollly/" target='_blank'>
+							<li class="contacts__li" >
+								<span class="contacts__icon icon-inst"></span>
+								<h6 class="contacts__link">instagram</h6>
+							</li>
+						</a>
+						<a href="https://vk.com/azrett" target='_blank'>
+							<li class="contacts__li" >
+								<span class="contacts__icon icon-vk"></span>
+								<h6 class="contacts__link">вконтакте</h6>
+							</li>
+						</a>
+						<a href="http://t.me/azzrett" target='_blank'>
+							<li class="contacts__li" >
+								<span class="contacts__icon icon-tg"></span>
+								<h6 class="contacts__link">telegram</h6>
+							</li>
+						</a>
+						<a href="https://api.whatsapp.com/send?phone=79389174314" target='_blank'>
+							<li class="contacts__li">
+								<span class="contacts__icon icon-wapp"></span>
+								<h6 class="contacts__link">what's app</h6>
+							</li>
+						</a>
+						<a href="mailto:jollyollly@gmail.com" target='_blank'>
+							<li class="contacts__li">
+								<span class="contacts__icon icon-gm"></span>
+								<h6 class="contacts__link">jollyollly@gmail.com</h6>
+							</li>
+						</a>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</section>
+
+	
+	
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/content.js"></script>
+</body>
+</html>
